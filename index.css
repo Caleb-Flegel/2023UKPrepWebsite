@@ -3,6 +3,44 @@ body {
     color: black;
 }
 
+.nav {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+input {
+    width: 6rem;
+    height: 4rem;
+
+    border: 3px whitesmoke solid;
+    border-radius: 20px;
+    background-color: coral;
+
+    color: whitesmoke;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+    margin-top: 40px;
+}
+
+#pageLink {
+    width: 12rem;
+
+    font-size: larger;
+}
+
 .title {
     display: flex;
     flex-direction: column;
@@ -34,7 +72,7 @@ h1 {
     margin: 2%;
 }
 
-.editorials {
+.assignments {
     display: flex;
     flex-direction: column;
 }
@@ -45,7 +83,7 @@ h2 {
     font-style: italic;
 }
 
-.editorial {
+.assignment {
     border: 3px solid darkorange;
     border-radius: 3px;
 
